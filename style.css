@@ -1,0 +1,208 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+body{
+    margin-top: 10px;
+}
+.nav>#firstnav,#secondnav,#thirdnav{
+    display: flex;
+    height: 56px;
+    padding-top: 10px;
+}
+.nav>#firstnav{
+    margin-right: 24px;
+    padding-top: 9px !important;
+
+}
+.nav>#firstnav>svg{
+    height: 21px !important;
+    margin-right: 23px;
+    margin-left: 11px;
+    margin-top: -1px;
+}
+.nav>#firstnav>img{
+    height: 20px;
+    margin-left: 0px;
+}
+
+
+.nav>#secondnav{
+    padding-top: 4px !important;
+}
+.nav>#secondnav>input{
+    height: 40px;
+    width: 530px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-size: 16px;
+    padding-left: 15px;
+    border: 1px solid black;
+    
+}
+
+.nav>#secondnav>#searchbtn{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 38px;
+    width: 65px !important;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:50px ;
+    border: 1px solid black;
+}
+.nav>#secondnav>#searchbtn>#serbtn{
+    font-size: 20px !important;
+}
+
+.nav>#secondnav>#mic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    background-color: #f2f2f2;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.nav>#thirdnav{
+    padding-top: 4px !important;
+    margin-right: 27px;
+}
+
+.nav>#thirdnav>#create{
+    height: 25px !important;
+    margin-right: 19px;
+    margin-top: 7px;
+}
+
+.nav>#thirdnav>#bell{
+    height: 22px !important;
+    margin-right: 17px;
+    margin-top: 7px;
+}
+
+.nav>#thirdnav>img{
+    height: 40px;
+    margin-top: -2px !important;
+}
+
+
+.topics{
+    display: flex;
+    width: 100% !important;
+    margin-top: 15px;
+}
+
+.topics>.home{
+    margin-left: 17px;
+    margin-right: 25px;
+}
+.topics>.home>#hometxt{
+    font-size: 10px;
+}
+.topics>.topicsitems{
+    width: 1700px;
+    display: flex;
+}
+.topics>.topicsitems>a{
+display: flex;
+justify-content: space-between;
+width: fit-content;
+background-color: #f2f2f2;
+margin: auto;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 7px;
+float: left;
+text-decoration: none;
+color: black;
+font-size: 14px;
+font-weight: 500;
+padd
+}
+
+
+
+
+.leftnav{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    height: 250px;
+    justify-content: space-between;
+    /* background-color: red; */
+    margin-top: 25px;
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+    font-size: 10.5px;
+    margin-left: -8px;
+    float: left;
+
+}
+
+.leftnav>#l1>#shorts{
+    height: 30px;
+    margin-top: 20px;
+}
+
+.leftnav>#l2>#sub>{
+    height: 25px;
+}
+
+.leftnav>#l2>#subs{
+    height: 20px;
+}
+
+
+.leftnav>#l3>#you{
+    height: 25px;
+}
+
+.leftnav>#l3>#u{
+    margin-bottom: 38px;
+}
+
+
+.vdos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.vdos>.vid{
+    height: 353.25px;
+    width: 365.17px;
+    margin: 10px;
+}
+
+
+.vdos>.vid>iframe{
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+.vdos img{
+    height: 45px;
+    /* display: inline; */
+    /* display: flex;
+     */
+     float: left;
+}
+
+.vdos p{
+    margin-top: -0px !important;
+    margin-left: 50px;
+    margin-right: 15px;
+    line-height: 17px;
+}
+
+
+
+
+

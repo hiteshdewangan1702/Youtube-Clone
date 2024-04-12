@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./images/fevicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>YouTube</title>
+</head>
+
+<body>
+
+    <div class="nav">
+
+        <div id="firstnav">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M26.6667 24.1667H3.33333C3.11232 24.1667 2.90036 24.0789 2.74408 23.9226C2.5878 23.7663 2.5 23.5543 2.5 23.3333C2.5 23.1123 2.5878 22.9004 2.74408 22.7441C2.90036 22.5878 3.11232 22.5 3.33333 22.5H26.6667C26.8877 22.5 27.0996 22.5878 27.2559 22.7441C27.4122 22.9004 27.5 23.1123 27.5 23.3333C27.5 23.5543 27.4122 23.7663 27.2559 23.9226C27.0996 24.0789 26.8877 24.1667 26.6667 24.1667Z"
+                    fill="black" />
+                <path
+                    d="M26.6667 15.8333H3.33333C3.11232 15.8333 2.90036 15.7455 2.74408 15.5892C2.5878 15.4329 2.5 15.221 2.5 15C2.5 14.7789 2.5878 14.567 2.74408 14.4107C2.90036 14.2544 3.11232 14.1666 3.33333 14.1666H26.6667C26.8877 14.1666 27.0996 14.2544 27.2559 14.4107C27.4122 14.567 27.5 14.7789 27.5 15C27.5 15.221 27.4122 15.4329 27.2559 15.5892C27.0996 15.7455 26.8877 15.8333 26.6667 15.8333Z"
+                    fill="black" />
+                <path
+                    d="M26.6667 7.50004H3.33333C3.11232 7.50004 2.90036 7.41224 2.74408 7.25596C2.5878 7.09968 2.5 6.88772 2.5 6.66671C2.5 6.44569 2.5878 6.23373 2.74408 6.07745C2.90036 5.92117 3.11232 5.83337 3.33333 5.83337H26.6667C26.8877 5.83337 27.0996 5.92117 27.2559 6.07745C27.4122 6.23373 27.5 6.44569 27.5 6.66671C27.5 6.88772 27.4122 7.09968 27.2559 7.25596C27.0996 7.41224 26.8877 7.50004 26.6667 7.50004Z"
+                    fill="black" />
+            </svg>
+
+            <img src="./images/logo.png" alt="" id="logo">
+        </div>
+
+        <div id="secondnav">
+            <input type="search" name="" placeholder="Search" id="searchbar">
+            <span id="searchbtn">
+                <i class="fa-solid fa-magnifying-glass" id="serbtn"></i>
+            </span>
+
+            <i class="fa-solid fa-microphone" id="mic"></i>
+        </div>
+
+        <div id="thirdnav">
+            <svg width="35" id="create" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M19.6875 16.9062H15.3125V12.5312H13.125V16.9062H8.75V19.0938H13.125V23.4688H15.3125V19.0938H19.6875V16.9062Z"
+                    fill="black" />
+                <path
+                    d="M22.9688 28.9375H4.375C3.79502 28.9369 3.23895 28.7063 2.82884 28.2962C2.41873 27.886 2.18808 27.33 2.1875 26.75V9.25C2.18808 8.67002 2.41873 8.11395 2.82884 7.70384C3.23895 7.29373 3.79502 7.06308 4.375 7.0625H22.9688C23.5487 7.06308 24.1048 7.29373 24.5149 7.70384C24.925 8.11395 25.1557 8.67002 25.1562 9.25V13.6873L31.0833 9.45453C31.2468 9.33784 31.4392 9.26841 31.6395 9.25386C31.8399 9.23931 32.0403 9.28021 32.2189 9.37206C32.3976 9.46391 32.5474 9.60317 32.6521 9.77457C32.7568 9.94598 32.8123 10.1429 32.8125 10.3438V25.6562C32.8125 25.8572 32.7572 26.0543 32.6526 26.2258C32.5479 26.3974 32.3981 26.5368 32.2194 26.6288C32.0408 26.7208 31.8402 26.7618 31.6398 26.7473C31.4394 26.7327 31.2468 26.6633 31.0833 26.5466L25.1562 22.3138V26.75C25.1557 27.33 24.925 27.886 24.5149 28.2962C24.1048 28.7063 23.5487 28.9369 22.9688 28.9375ZM4.375 9.25V26.7511L22.9688 26.75V20.1875C22.9687 19.9866 23.0241 19.7895 23.1287 19.6179C23.2333 19.4464 23.3832 19.3069 23.5618 19.215C23.7405 19.123 23.941 19.082 24.1414 19.0965C24.3419 19.111 24.5344 19.1804 24.698 19.2972L30.625 23.53V12.47L24.698 16.7028C24.5344 16.8196 24.3419 16.889 24.1414 16.9035C23.941 16.918 23.7405 16.877 23.5618 16.785C23.3832 16.6931 23.2333 16.5536 23.1287 16.3821C23.0241 16.2105 22.9687 16.0134 22.9688 15.8125V9.25H4.375Z"
+                    fill="black" />
+            </svg>
+            <svg width="30" id="bell" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_166_85)">
+                    <path
+                        d="M15.0001 28.5666C15.525 28.5545 16.0288 28.3572 16.4222 28.0095C16.8157 27.6618 17.0735 27.1861 17.1501 26.6666H12.7667C12.8455 27.2002 13.1153 27.687 13.5261 28.0365C13.937 28.386 14.4607 28.5744 15.0001 28.5666Z"
+                        fill="black" />
+                    <path
+                        d="M27.0916 23.1916C26.288 22.4753 25.5845 21.654 25 20.75C24.3618 19.5021 23.9793 18.1393 23.875 16.7416V12.625C23.8716 12.1249 23.827 11.626 23.7416 11.1333C23.0857 11.0022 22.4553 10.7658 21.875 10.4333C22.0962 11.1457 22.2086 11.8874 22.2083 12.6333V16.75C22.3104 18.455 22.7795 20.1179 23.5833 21.625C24.1586 22.5366 24.8413 23.376 25.6166 24.125H4.27496C5.0503 23.376 5.73296 22.5366 6.30829 21.625C7.11214 20.1179 7.58115 18.455 7.68329 16.75V12.625C7.67891 11.6605 7.8648 10.7047 8.23033 9.81223C8.59586 8.91974 9.13384 8.10812 9.81347 7.42385C10.4931 6.73957 11.301 6.19607 12.191 5.82447C13.081 5.45287 14.0355 5.26048 15 5.25829C16.4114 5.25942 17.7912 5.67684 18.9666 6.45829C18.837 5.98245 18.7643 5.49292 18.75 4.99996V4.47496C17.8798 4.04693 16.9451 3.76537 15.9833 3.64163V2.59163C15.9833 2.29657 15.8661 2.0136 15.6574 1.80497C15.4488 1.59634 15.1658 1.47913 14.8708 1.47913C14.5757 1.47913 14.2928 1.59634 14.0841 1.80497C13.8755 2.0136 13.7583 2.29657 13.7583 2.59163V3.68329C11.6047 3.98709 9.63377 5.05975 8.20931 6.70324C6.78485 8.34673 6.00307 10.4501 6.00829 12.625V16.7416C5.90392 18.1393 5.52144 19.5021 4.88329 20.75C4.30903 21.6519 3.61679 22.4731 2.82496 23.1916C2.73607 23.2697 2.66483 23.3658 2.61597 23.4736C2.56712 23.5814 2.54178 23.6983 2.54163 23.8166V24.95C2.54163 25.171 2.62942 25.3829 2.7857 25.5392C2.94198 25.6955 3.15395 25.7833 3.37496 25.7833H26.5416C26.7626 25.7833 26.9746 25.6955 27.1309 25.5392C27.2872 25.3829 27.375 25.171 27.375 24.95V23.8166C27.3748 23.6983 27.3495 23.5814 27.3006 23.4736C27.2518 23.3658 27.1805 23.2697 27.0916 23.1916Z"
+                        fill="black" />
+                    <path
+                        d="M22.9166 14.1667C26.8286 14.1667 29.9999 10.9954 29.9999 7.08333C29.9999 3.17132 26.8286 0 22.9166 0C19.0046 0 15.8333 3.17132 15.8333 7.08333C15.8333 10.9954 19.0046 14.1667 22.9166 14.1667Z"
+                        fill="#FF0000" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_166_85">
+                        <rect width="30" height="30" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+            <img src="./images/avatar.jpg" alt="" id="profile">
+        </div>
+
+    </div>
+
+
+    <div class="topics">
+        <div class="home">
+            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M2.5 13L11.793 3.70697C11.9805 3.5195 12.2348 3.41418 12.5 3.41418C12.7652 3.41418 13.0195 3.5195 13.207 3.70697L22.5 13H20.5V21C20.5 21.2652 20.3946 21.5195 20.2071 21.7071C20.0196 21.8946 19.7652 22 19.5 22H14.5V15H10.5V22H5.5C5.23478 22 4.98043 21.8946 4.79289 21.7071C4.60536 21.5195 4.5 21.2652 4.5 21V13H2.5Z"
+                    fill="black" />
+            </svg>
+            <div id="hometxt">Home</div>
+        </div>
+        <div class="topicsitems">
+            <a href="">All</a>
+            <a href="">Music</a>
+            <a href="">Web Development</a>
+            <a href="">Computer programming</a>
+            <a href="">Computer programming</a>
+            <a href="">Lo-fi</a>
+            <a href="">PUBG</a>
+            <a href="">Data science</a>
+            <a href="">Stocks</a>
+            <a href="">Live</a>
+            <a href="">Full stack</a>
+            <a href="">Music</a>
+            <a href="">Laptops</a>
+            <a href="">Java</a>
+            <a href="">Oracle</a>
+            <i class="fa-solid fa-arrow-right" id="arrow"></i>
+        </div>
+    </div>
+
+
+
+    <div class="leftnav">
+
+        <div id="l1">
+            <img src="./images/Youtube_Shorts_Logo_PNG_Images__Transparent_HD_Photo_Clipart_-removebg-preview.png"
+                alt="" id="shorts">
+            <div>shorts</div>
+        </div>
+
+
+        <div id="l2">
+            <img src="./images/subs.png" alt="" id="subs">
+            <div id="subs">Subscription</div>
+        </div>
+
+
+        <div id="l3">
+            <svg id="you" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M4.5 6H2.5V20C2.5 21.1 3.4 22 4.5 22H18.5V20H4.5V6ZM20.5 2H8.5C7.4 2 6.5 2.9 6.5 4V16C6.5 17.1 7.4 18 8.5 18H20.5C21.6 18 22.5 17.1 22.5 16V4C22.5 2.9 21.6 2 20.5 2ZM20.5 16H8.5V4H20.5V16ZM12.5 5.5V14.5L18.5 10L12.5 5.5Z"
+                    fill="black" />
+            </svg>
+            <div id="u">You</div>
+        </div>
+
+    </div>
+
+
+
+    <div class="vdos">
+        <div class="vid vd01">
+            <iframe width="365.17" height="210" src="https://www.youtube.com/embed/GfmUQK29MpE?si=dENKEiWghos7sv_9"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <img src="./images/avatar.jpg" alt="" id="profile">
+            <p><strong> Step By Step Roadmap To Get Placed in 2024 | On-Campus & Off-Campus </strong><br>
+                Nishant Chahar <br>
+                27k views <span><sup>.</sup></span> 1 day ago</p>
+        </div>
+
+        <div class="vid vd02">
+            <iframe width="365.17" height="210" src="https://www.youtube.com/embed/GfmUQK29MpE?si=dENKEiWghos7sv_9"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <img src="./images/avatar.jpg" alt="" id="profile">
+            <p><strong> Step By Step Roadmap To Get Placed in 2024 | On-Campus & Off-Campus </strong><br>
+                Nishant Chahar <br>
+                27k views <span><sup>.</sup></span> 1 day ago</p>
+        </div>
+
+        <div class="vid vd03">
+            <iframe width="365.17" height="210" src="https://www.youtube.com/embed/GfmUQK29MpE?si=dENKEiWghos7sv_9"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <img src="./images/avatar.jpg" alt="" id="profile">
+            <p><strong> Step By Step Roadmap To Get Placed in 2024 | On-Campus & Off-Campus </strong><br>
+                Nishant Chahar <br>
+                27k views <span><sup>.</sup></span> 1 day ago</p>
+        </div>
+
+        <div class="vid vd04">
+            <iframe width="365.17" height="210" src="https://www.youtube.com/embed/GfmUQK29MpE?si=dENKEiWghos7sv_9"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <img src="./images/avatar.jpg" alt="" id="profile">
+            <p><strong> Step By Step Roadmap To Get Placed in 2024 | On-Campus & Off-Campus </strong><br>
+                Nishant Chahar <br>
+                27k views <span><sup>.</sup></span> 1 day ago</p>
+        </div>
+
+        <div class="vid vd05">
+            <iframe width="365.17" height="210" src="https://www.youtube.com/embed/GfmUQK29MpE?si=dENKEiWghos7sv_9"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <img src="./images/avatar.jpg" alt="" id="profile">
+            <p><strong> Step By Step Roadmap To Get Placed in 2024 | On-Campus & Off-Campus </strong><br>
+                Nishant Chahar <br>
+                27k views <span><sup>.</sup></span> 1 day ago</p>
+        </div>
+
+        <div class="vid vd06">
+            <iframe width="365.17" height="210" src="https://www.youtube.com/embed/GfmUQK29MpE?si=dENKEiWghos7sv_9"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <img src="./images/avatar.jpg" alt="" id="profile">
+            <p><strong> Step By Step Roadmap To Get Placed in 2024 | On-Campus & Off-Campus </strong><br>
+                Nishant Chahar <br>
+                27k views <span><sup>.</sup></span> 1 day ago</p>
+        </div>
+
+        <div class="vid vd07">
+
+            <iframe width="365.17" height="210" src="https://www.youtube.com/embed/GfmUQK29MpE?si=dENKEiWghos7sv_9"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <img src="./images/avatar.jpg" alt="" id="profile">
+            <p><strong> Step By Step Roadmap To Get Placed in 2024 | On-Campus & Off-Campus </strong><br>
+                Nishant Chahar <br>
+                27k views <span><sup>.</sup></span> 1 day ago</p>
+        </div>
+
+        <div class="vid vd08">
+
+            <iframe width="365.17" height="210" src="https://www.youtube.com/embed/GfmUQK29MpE?si=dENKEiWghos7sv_9"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <img src="./images/avatar.jpg" alt="" id="profile">
+            <p><strong> Step By Step Roadmap To Get Placed in 2024 | On-Campus & Off-Campus </strong><br>
+                Nishant Chahar <br>
+                27k views <span><sup>.</sup></span> 1 day ago</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
